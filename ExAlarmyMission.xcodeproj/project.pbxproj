@@ -28,7 +28,7 @@
 		B5655ABA2BC06F6600B71A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5655ABC2BC06F6600B71A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5655AC22BC0717800B71A8C /* MissonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissonModel.swift; sourceTree = "<group>"; };
-		B5655AC42BC0764D00B71A8C /* MemoryMissonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMissonVC.swift; sourceTree = "<group>"; };
+		B5655AC42BC0764D00B71A8C /* MemoryMissonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MemoryMissonVC.swift; path = ../MemoryMissonVC.swift; sourceTree = "<group>"; };
 		B5655AC62BC076C300B71A8C /* MemoryTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryTileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -67,7 +67,6 @@
 				B5655AC22BC0717800B71A8C /* MissonModel.swift */,
 				B5655AB22BC06F6500B71A8C /* ViewController.swift */,
 				B5655AC82BC0778700B71A8C /* MemoryGame */,
-				B5655AC42BC0764D00B71A8C /* MemoryMissonVC.swift */,
 				B5655AB42BC06F6500B71A8C /* Main.storyboard */,
 				B5655AB72BC06F6600B71A8C /* Assets.xcassets */,
 				B5655AB92BC06F6600B71A8C /* LaunchScreen.storyboard */,
