@@ -67,6 +67,7 @@
 				B5655AC22BC0717800B71A8C /* MissonModel.swift */,
 				B5655AB22BC06F6500B71A8C /* ViewController.swift */,
 				B5655AC82BC0778700B71A8C /* MemoryGame */,
+				B5655AC42BC0764D00B71A8C /* MemoryMissonVC.swift */,
 				B5655AB42BC06F6500B71A8C /* Main.storyboard */,
 				B5655AB72BC06F6600B71A8C /* Assets.xcassets */,
 				B5655AB92BC06F6600B71A8C /* LaunchScreen.storyboard */,
