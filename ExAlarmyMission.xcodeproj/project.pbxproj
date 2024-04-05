@@ -14,6 +14,7 @@
 		B5655AB82BC06F6600B71A8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5655AB72BC06F6600B71A8C /* Assets.xcassets */; };
 		B5655ABB2BC06F6600B71A8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5655AB92BC06F6600B71A8C /* LaunchScreen.storyboard */; };
 		B5655AC32BC0717800B71A8C /* MissonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5655AC22BC0717800B71A8C /* MissonModel.swift */; };
+		B5655AC52BC0764D00B71A8C /* MemoryMissonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5655AC42BC0764D00B71A8C /* MemoryMissonVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B5655ABA2BC06F6600B71A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5655ABC2BC06F6600B71A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5655AC22BC0717800B71A8C /* MissonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissonModel.swift; sourceTree = "<group>"; };
+		B5655AC42BC0764D00B71A8C /* MemoryMissonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMissonVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				B5655AB02BC06F6500B71A8C /* SceneDelegate.swift */,
 				B5655AC22BC0717800B71A8C /* MissonModel.swift */,
 				B5655AB22BC06F6500B71A8C /* ViewController.swift */,
+				B5655AC42BC0764D00B71A8C /* MemoryMissonVC.swift */,
 				B5655AB42BC06F6500B71A8C /* Main.storyboard */,
 				B5655AB72BC06F6600B71A8C /* Assets.xcassets */,
 				B5655AB92BC06F6600B71A8C /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				B5655AB32BC06F6500B71A8C /* ViewController.swift in Sources */,
 				B5655AAF2BC06F6500B71A8C /* AppDelegate.swift in Sources */,
 				B5655AC32BC0717800B71A8C /* MissonModel.swift in Sources */,
+				B5655AC52BC0764D00B71A8C /* MemoryMissonVC.swift in Sources */,
 				B5655AB12BC06F6500B71A8C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
