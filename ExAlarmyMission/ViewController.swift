@@ -67,7 +67,8 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let mission = sections[indexPath.section]
         if indexPath.section == 0 && indexPath.row == 0 {
-            
+            let vc = MemoryMissonVC()
+            self.navigationController?.pushViewController(vc, animated: true)
         }
         
     }
