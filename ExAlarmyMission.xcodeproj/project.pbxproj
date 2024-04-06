@@ -18,6 +18,7 @@
 		B5655AC72BC076C300B71A8C /* MemoryTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5655AC62BC076C300B71A8C /* MemoryTileView.swift */; };
 		B5655ACA2BC12C7700B71A8C /* MemoryMissonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5655AC92BC12C7700B71A8C /* MemoryMissonView.swift */; };
 		B5655ACC2BC1333900B71A8C /* BasePaddingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5655ACB2BC1333900B71A8C /* BasePaddingLabel.swift */; };
+		B5655ACE2BC175F800B71A8C /* TileMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5655ACD2BC175F800B71A8C /* TileMaker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B5655AC62BC076C300B71A8C /* MemoryTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryTileView.swift; sourceTree = "<group>"; };
 		B5655AC92BC12C7700B71A8C /* MemoryMissonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryMissonView.swift; sourceTree = "<group>"; };
 		B5655ACB2BC1333900B71A8C /* BasePaddingLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePaddingLabel.swift; sourceTree = "<group>"; };
+		B5655ACD2BC175F800B71A8C /* TileMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileMaker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				B5655AC62BC076C300B71A8C /* MemoryTileView.swift */,
 				B5655AC92BC12C7700B71A8C /* MemoryMissonView.swift */,
 				B5655AC42BC0764D00B71A8C /* MemoryMissonVC.swift */,
+				B5655ACD2BC175F800B71A8C /* TileMaker.swift */,
 			);
 			path = MemoryGame;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 				B5655AB32BC06F6500B71A8C /* ViewController.swift in Sources */,
 				B5655AAF2BC06F6500B71A8C /* AppDelegate.swift in Sources */,
 				B5655ACA2BC12C7700B71A8C /* MemoryMissonView.swift in Sources */,
+				B5655ACE2BC175F800B71A8C /* TileMaker.swift in Sources */,
 				B5655ACC2BC1333900B71A8C /* BasePaddingLabel.swift in Sources */,
 				B5655AC32BC0717800B71A8C /* MissonModel.swift in Sources */,
 				B5655AC52BC0764D00B71A8C /* MemoryMissonVC.swift in Sources */,
