@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct TileMaker {
+struct FlipTileMaker {
     static func makeMatrix(row: Int = 3, columm: Int = 3) -> UIStackView {
         let colummStackView = UIStackView()
         colummStackView.axis = .vertical
@@ -20,7 +20,7 @@ struct TileMaker {
             rowStackView.spacing = 2
             rowStackView.distribution = .fillEqually
             for _ in (1...columm) {
-                let tile = MemoryTileView()
+                let tile = FlipTileView()
                 rowStackView.addArrangedSubview(tile)
             }
             

@@ -1,5 +1,5 @@
 //
-//  MemoryTileView.swift
+//  FlipTileView.swift
 //  ExAlarmyMission
 //
 //  Created by 강동영 on 4/6/24.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-protocol MemoryTileViewAble {
+protocol FlipTileViewAble {
     func tappedView()
     func flip()
 }
 
-final class MemoryTileView: UIView, MemoryTileViewAble {
+final class FlipTileView: UIView, FlipTileViewAble {
     let correctColor: UIColor = .systemOrange
     let defaultColor: UIColor = .darkGray
     

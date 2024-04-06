@@ -25,7 +25,7 @@ final class MemoryMissonView: UIView {
         return label
     }()
     private let matrixView: UIStackView = {
-        let stackView = TileMaker.makeMatrix()
+        let stackView = FlipTileMaker.makeMatrix()
         stackView.translatesAutoresizingMaskIntoConstraints = false
         return stackView
     }()
