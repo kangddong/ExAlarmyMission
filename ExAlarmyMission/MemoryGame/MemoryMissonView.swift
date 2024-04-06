@@ -24,8 +24,9 @@ final class MemoryMissonView: UIView {
         
         return label
     }()
-    private let matrixView: UIStackView = {
-        let stackView = FlipTileMaker.makeMatrix()
+    
+    private let matrixView: FlipTileMatrixView = {
+        let stackView: FlipTileMatrixView = .init()
         stackView.translatesAutoresizingMaskIntoConstraints = false
         return stackView
     }()
@@ -48,6 +49,10 @@ final class MemoryMissonView: UIView {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    public func startMission() {
+        matrixView.startMisson()
     }
 }
 
@@ -73,7 +78,3 @@ extension MemoryMissonView {
         ])
     }
 }
-
-#Preview(traits: .fixedLayout(width: 100, height: 100), body: {
-    MemoryMissonView(totalCount: 3,frame: CGRect(x: 0, y: 0, width: 100, height: 100))
-})
